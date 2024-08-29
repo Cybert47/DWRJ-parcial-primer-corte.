@@ -3,9 +3,87 @@
 */
 
 :root {
-    --background-color: #1E1E1E;
+  --background-color: #1e1e1e;
 }
 
 .character-list {
-    background-color: var(--background-color);
+  background-color: var(--background-color);
+}
+body {
+  background-color: #1e1e1e;
+  margin: auto;
+  padding: 0 10px;
+}
+
+.character-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-direction: row;
+}
+
+.card {
+  background-color: hsla(220, 3%, 20%, 1);
+  padding: 12px;
+  align-items: center;
+  width: 294px;
+  height: 400px;
+  margin: 7px;
+  border-radius: 8px;
+  color: hsla(0, 0%, 100%, 1);
+}
+
+#heart {
+  cursor: pointer;
+  width: 48px;
+  height: 48px;
+}
+
+.character-image {
+  margin: 10px;
+  width: 262px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87.14px;
+
+  color: hsla(188, 84%, 43%, 1);
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.36px;
+}
+
+.cualidades {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.36px;
+  margin: 0 20px;
+}
+
+.description {
+  margin: 0 20px;
+}
+
+.status-alive{
+  filter: invert(38%) sepia(65%) saturate(3935%) hue-rotate(81deg) brightness(97%) contrast(98%);}
+
+.status-dead{
+  filter: invert(96%) sepia(69%) saturate(5800%) hue-rotate(6deg) brightness(95%) contrast(101%);
+}
+
+.status-unknown {
+  filter: grayscale(100%);
 }
