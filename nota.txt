@@ -1,0 +1,25 @@
+
+1. capa de servicio (service.js):
+    + buen manejo de clases y buen manejo de error
+    + buen uso y manejo de funciones asyncronas async/await
+    + buen manejo de errore
+    ! falto tu nombre y tu codigo tambien falto mapear la respuesta como se pedia
+2.  manejo HTML y Acceso al DOM (index.js):
+    + excelente manejo del DOM de los elementos y sus propiedades
+    + muy buen uso de las etiquetas y sus propiedades
+3.  manejo de eventos (index.js)
+    + muy buen manejo de eventos
+    ! recuerda siempre que termines tu desarrollo quitar tus console.log 
+4.  manejo de estilos
+    + muy buen manejo de estilos, maquetacion y unidades de medida
+    - falta algo de alineacion en las cards y agregar los colores correctos a los iconos -0.2
+
+Calificacion
+  1. Estilos y diseño HTML y CSS deacuerdo al figma -> CUMPLE (1.8 puntos)
+  2. Listado de personajes con toda la información solicitada esto incluye indicador de Alive & Dead con el estilo respectivo -> CUMPLE (2 puntos)
+  3. Evento de click y mensaje informativo ´Hola soy (nombre personaje)´ -> CUMPLE (1 punto)
+
+Nota: 4.8
+
+
+ejercicio puntual: 5
